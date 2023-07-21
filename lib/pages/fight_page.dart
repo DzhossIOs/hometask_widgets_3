@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_fight_club/fight_result.dart';
+import 'package:flutter_fight_club/resources/FightClubImages.dart';
 import 'package:flutter_fight_club/resources/fight_club_colors.dart';
 import 'package:flutter_fight_club/resources/fight_club_icons.dart';
 import 'package:flutter_fight_club/widgets/action_button.dart';
@@ -203,7 +204,7 @@ class FightersInfoWidget extends StatelessWidget {
                     SizedBox(
                       width: 92,
                       height: 92,
-                      child: Image.asset(FightClubIcons.enemy),
+                      child: Image.asset(FightClubImages.enemy),
                     )
                   ],
                 ),
@@ -229,7 +230,7 @@ class FightersInfoWidget extends StatelessWidget {
                     SizedBox(
                       width: 92,
                       height: 92,
-                      child: Image.asset(FightClubIcons.you),
+                      child: Image.asset(FightClubImages.you),
                     )
                   ],
                 ),
